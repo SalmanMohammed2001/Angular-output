@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'childToParent';
+
+  superMessage='';
+  show(data:string){
+    this.superMessage=data;
+  }
 }
